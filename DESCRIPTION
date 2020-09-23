@@ -1,0 +1,13 @@
+Package: englandsimmigrants
+Type: Package
+Title: England's Immigrants 1330-1550 Dataset
+Description: The "England's Immigrants (1330-1550)" dataset packaged for use with R
+    projects, for example Tidy Tuesday.
+Version: 0.1
+Date: 2020-09-21
+Author: W. Mark Ormrod and colleagues (https://www.englandsimmigrants.com)
+Maintainer: Francis Barton <fbarton@alwaysdata.net>
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)

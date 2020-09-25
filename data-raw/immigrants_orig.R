@@ -3,7 +3,6 @@
 library(dplyr)
 library(readr)
 library(here)
-library(myrmidon) # remotes::install_github("francisbarton/myrmidon")
 
 
 # CSV file downloaded from https://www.englandsimmigrants.com/browse/
@@ -14,11 +13,11 @@ coltypes <- paste0(
   "ccccc", # cols 6:10 etc
   "ccccc",
   "ccffc",
-  "cccii",
+  "fcfii",
   "fiiii",
   "iiccc",
   "ccccc",
-  "icccf",
+  "ifccf",
   "cfcfD", # columns 20, 22, 46 and 48 should be date (D) but there are invalid
            # dates, so importing these as character (c) for now
   "fDfc"
@@ -31,6 +30,7 @@ immigrants_orig <- here::here(
   readr::read_csv(
     col_types = coltypes,
     na = "",
+    locale = locale(encoding = "latin1"),
     n_max = 64783 # omit last line, which contains version metadata
   )
 

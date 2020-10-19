@@ -23,7 +23,7 @@ which ran between February 2012 and February 2015.
 
 The collaboration involved the [University of York](https://www.york.ac.uk/), [The National Archives](http://www.nationalarchives.gov.uk/) and the [Humanities Research Institute, University of Sheffield](http://www.sheffield.ac.uk/hri).
 
-I recommend that, before using the data, at a minimum you read [the background to the research project][intro] (1,350 words).
+**Before using the data**, I recommend that at a minimum you read [the background to the research project][intro] (1,350 words).
 The project explores
 
 > the extensive archival evidence about the names, origins, occupations and households of a significant number of foreigners who chose to make their lives and livelihoods in England in the era of the Hundred Years War, the Black Death and the Wars of the Roses. [_source_][intro]
@@ -150,7 +150,7 @@ Armed with your reprex, the next step is to figure out [where to ask](https://ww
 *   If you're not sure: let the community help you figure it out! 
     If your problem _is_ a bug or a feature request, you can easily return here and report it.
 
-Before opening a new issue, be sure to [search issues and pull requests](https://github.com//issues) to make sure the bug hasn't been reported and/or already fixed in the development version. 
+Before opening a new issue, be sure to [search issues and pull requests](https://github.com/issues) to make sure the bug hasn't been reported and/or already fixed in the development version. 
 By default, the search will be pre-populated with `is:issue is:open`. 
 You can [edit the qualifiers](https://help.github.com/articles/searching-issues-and-pull-requests/)  (e.g. `is:pr`, `is:closed`) as needed. 
 For example, you'd simply remove `is:open` to search _all_ issues in the repo, open or closed.
